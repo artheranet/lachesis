@@ -1,8 +1,8 @@
 package abft
 
 import (
-	"github.com/Fantom-foundation/lachesis-base/hash"
-	"github.com/Fantom-foundation/lachesis-base/inter/dag"
+	"github.com/artheranet/lachesis/hash"
+	"github.com/artheranet/lachesis/inter/dag"
 )
 
 // EventSource is a callback for getting events from an external storage.

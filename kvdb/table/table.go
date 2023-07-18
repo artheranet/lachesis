@@ -5,7 +5,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/Fantom-foundation/lachesis-base/kvdb"
+	"github.com/artheranet/lachesis/kvdb"
 )
 
 // Table wraper the underling DB, so all the table's data is stored with a prefix in underling DB

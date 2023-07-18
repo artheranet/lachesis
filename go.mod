@@ -1,4 +1,4 @@
-module github.com/artheranet/lachesis-base
+module github.com/artheranet/lachesis
 
 go 1.17
 

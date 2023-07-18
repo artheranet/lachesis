@@ -5,8 +5,8 @@ import (
 
 	"github.com/syndtr/goleveldb/leveldb/opt"
 
-	"github.com/Fantom-foundation/lachesis-base/inter/dag"
-	"github.com/Fantom-foundation/lachesis-base/utils/cachescale"
+	"github.com/artheranet/lachesis/inter/dag"
+	"github.com/artheranet/lachesis/utils/cachescale"
 )
 
 type Config struct {

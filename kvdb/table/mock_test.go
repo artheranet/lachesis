@@ -7,7 +7,7 @@ package table
 import (
 	reflect "reflect"
 
-	kvdb "github.com/Fantom-foundation/lachesis-base/kvdb"
+	kvdb "github.com/artheranet/lachesis/kvdb"
 	gomock "github.com/golang/mock/gomock"
 )
 

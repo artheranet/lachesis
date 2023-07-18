@@ -1,7 +1,7 @@
 package ancestor
 
 import (
-	"github.com/Fantom-foundation/lachesis-base/hash"
+	"github.com/artheranet/lachesis/hash"
 )
 
 type MetricStrategy struct {

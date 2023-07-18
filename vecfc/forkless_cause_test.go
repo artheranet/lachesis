@@ -9,12 +9,12 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/Fantom-foundation/lachesis-base/hash"
-	"github.com/Fantom-foundation/lachesis-base/inter/dag"
-	"github.com/Fantom-foundation/lachesis-base/inter/dag/tdag"
-	"github.com/Fantom-foundation/lachesis-base/inter/idx"
-	"github.com/Fantom-foundation/lachesis-base/inter/pos"
-	"github.com/Fantom-foundation/lachesis-base/kvdb/memorydb"
+	"github.com/artheranet/lachesis/hash"
+	"github.com/artheranet/lachesis/inter/dag"
+	"github.com/artheranet/lachesis/inter/dag/tdag"
+	"github.com/artheranet/lachesis/inter/idx"
+	"github.com/artheranet/lachesis/inter/pos"
+	"github.com/artheranet/lachesis/kvdb/memorydb"
 )
 
 func tCrit(err error) { panic(err) }
@@ -123,7 +123,9 @@ a1_5 ────╣        ║
 }
 
 // testForklessCaused uses event name agreement:
-//  "<name>_<level>[(by-level)]",
+//
+//	"<name>_<level>[(by-level)]",
+//
 // where by-level means that event is forkless seen by all event with level >= by-level.
 func testForklessCaused(t *testing.T, dagAscii string) {
 	assertar := assert.New(t)
