@@ -1,6 +1,6 @@
 package multidb
 
-import "github.com/Fantom-foundation/lachesis-base/kvdb"
+import "github.com/artheranet/lachesis/kvdb"
 
 type closableTable struct {
 	kvdb.Store

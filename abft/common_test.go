@@ -3,14 +3,14 @@ package abft
 import (
 	"math/rand"
 
-	"github.com/Fantom-foundation/lachesis-base/hash"
-	"github.com/Fantom-foundation/lachesis-base/inter/idx"
-	"github.com/Fantom-foundation/lachesis-base/inter/pos"
-	"github.com/Fantom-foundation/lachesis-base/kvdb"
-	"github.com/Fantom-foundation/lachesis-base/kvdb/memorydb"
-	"github.com/Fantom-foundation/lachesis-base/lachesis"
-	"github.com/Fantom-foundation/lachesis-base/utils/adapters"
-	"github.com/Fantom-foundation/lachesis-base/vecfc"
+	"github.com/artheranet/lachesis/hash"
+	"github.com/artheranet/lachesis/inter/idx"
+	"github.com/artheranet/lachesis/inter/pos"
+	"github.com/artheranet/lachesis/kvdb"
+	"github.com/artheranet/lachesis/kvdb/memorydb"
+	"github.com/artheranet/lachesis/lachesis"
+	"github.com/artheranet/lachesis/utils/adapters"
+	"github.com/artheranet/lachesis/vecfc"
 )
 
 type applyBlockFn func(block *lachesis.Block) *pos.Validators

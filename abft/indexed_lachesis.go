@@ -5,14 +5,14 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/Fantom-foundation/lachesis-base/abft/dagidx"
-	"github.com/Fantom-foundation/lachesis-base/hash"
-	"github.com/Fantom-foundation/lachesis-base/inter/dag"
-	"github.com/Fantom-foundation/lachesis-base/inter/idx"
-	"github.com/Fantom-foundation/lachesis-base/inter/pos"
-	"github.com/Fantom-foundation/lachesis-base/kvdb"
-	"github.com/Fantom-foundation/lachesis-base/kvdb/flushable"
-	"github.com/Fantom-foundation/lachesis-base/lachesis"
+	"github.com/artheranet/lachesis/abft/dagidx"
+	"github.com/artheranet/lachesis/hash"
+	"github.com/artheranet/lachesis/inter/dag"
+	"github.com/artheranet/lachesis/inter/idx"
+	"github.com/artheranet/lachesis/inter/pos"
+	"github.com/artheranet/lachesis/kvdb"
+	"github.com/artheranet/lachesis/kvdb/flushable"
+	"github.com/artheranet/lachesis/lachesis"
 )
 
 var _ lachesis.Consensus = (*IndexedLachesis)(nil)

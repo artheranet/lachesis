@@ -1,8 +1,8 @@
 package vecengine
 
 import (
-	"github.com/Fantom-foundation/lachesis-base/inter/dag"
-	"github.com/Fantom-foundation/lachesis-base/inter/idx"
+	"github.com/artheranet/lachesis/inter/dag"
+	"github.com/artheranet/lachesis/inter/idx"
 )
 
 type LowestAfterI interface {

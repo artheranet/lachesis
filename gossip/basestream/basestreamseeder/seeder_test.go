@@ -13,11 +13,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/Fantom-foundation/lachesis-base/gossip/basestream"
-	"github.com/Fantom-foundation/lachesis-base/hash"
-	"github.com/Fantom-foundation/lachesis-base/inter/dag"
-	"github.com/Fantom-foundation/lachesis-base/inter/dag/tdag"
-	"github.com/Fantom-foundation/lachesis-base/inter/idx"
+	"github.com/artheranet/lachesis/gossip/basestream"
+	"github.com/artheranet/lachesis/hash"
+	"github.com/artheranet/lachesis/inter/dag"
+	"github.com/artheranet/lachesis/inter/dag/tdag"
+	"github.com/artheranet/lachesis/inter/idx"
 )
 
 func defaultConfig() Config {

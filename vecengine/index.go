@@ -4,12 +4,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Fantom-foundation/lachesis-base/hash"
-	"github.com/Fantom-foundation/lachesis-base/inter/dag"
-	"github.com/Fantom-foundation/lachesis-base/inter/idx"
-	"github.com/Fantom-foundation/lachesis-base/inter/pos"
-	"github.com/Fantom-foundation/lachesis-base/kvdb"
-	"github.com/Fantom-foundation/lachesis-base/kvdb/table"
+	"github.com/artheranet/lachesis/hash"
+	"github.com/artheranet/lachesis/inter/dag"
+	"github.com/artheranet/lachesis/inter/idx"
+	"github.com/artheranet/lachesis/inter/pos"
+	"github.com/artheranet/lachesis/kvdb"
+	"github.com/artheranet/lachesis/kvdb/table"
 )
 
 type Callbacks struct {

@@ -1,8 +1,8 @@
 package vecfc
 
 import (
-	"github.com/Fantom-foundation/lachesis-base/hash"
-	"github.com/Fantom-foundation/lachesis-base/kvdb"
+	"github.com/artheranet/lachesis/hash"
+	"github.com/artheranet/lachesis/kvdb"
 )
 
 func (vi *Index) getBytes(table kvdb.Store, id hash.Event) []byte {

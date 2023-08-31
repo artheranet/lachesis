@@ -7,15 +7,15 @@ import (
 
 	"github.com/syndtr/goleveldb/leveldb/opt"
 
-	"github.com/Fantom-foundation/lachesis-base/hash"
-	"github.com/Fantom-foundation/lachesis-base/inter/dag"
-	"github.com/Fantom-foundation/lachesis-base/inter/dag/tdag"
-	"github.com/Fantom-foundation/lachesis-base/inter/pos"
-	"github.com/Fantom-foundation/lachesis-base/kvdb"
-	"github.com/Fantom-foundation/lachesis-base/kvdb/flushable"
-	"github.com/Fantom-foundation/lachesis-base/kvdb/leveldb"
-	"github.com/Fantom-foundation/lachesis-base/kvdb/memorydb"
-	"github.com/Fantom-foundation/lachesis-base/vecengine/vecflushable"
+	"github.com/artheranet/lachesis/hash"
+	"github.com/artheranet/lachesis/inter/dag"
+	"github.com/artheranet/lachesis/inter/dag/tdag"
+	"github.com/artheranet/lachesis/inter/pos"
+	"github.com/artheranet/lachesis/kvdb"
+	"github.com/artheranet/lachesis/kvdb/flushable"
+	"github.com/artheranet/lachesis/kvdb/leveldb"
+	"github.com/artheranet/lachesis/kvdb/memorydb"
+	"github.com/artheranet/lachesis/vecengine/vecflushable"
 )
 
 func BenchmarkIndex_Add_MemoryDB(b *testing.B) {

@@ -4,8 +4,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/Fantom-foundation/lachesis-base/kvdb"
-	"github.com/Fantom-foundation/lachesis-base/kvdb/flushable"
+	"github.com/artheranet/lachesis/kvdb"
+	"github.com/artheranet/lachesis/kvdb/flushable"
 )
 
 type Producer struct {

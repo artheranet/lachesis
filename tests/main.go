@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Fantom-foundation/lachesis-base/abft"
-	"github.com/Fantom-foundation/lachesis-base/inter/idx"
-	"github.com/Fantom-foundation/lachesis-base/kvdb"
-	"github.com/Fantom-foundation/lachesis-base/kvdb/memorydb"
-	"github.com/Fantom-foundation/lachesis-base/utils/adapters"
-	"github.com/Fantom-foundation/lachesis-base/vecfc"
+	"github.com/artheranet/lachesis/abft"
+	"github.com/artheranet/lachesis/inter/idx"
+	"github.com/artheranet/lachesis/kvdb"
+	"github.com/artheranet/lachesis/kvdb/memorydb"
+	"github.com/artheranet/lachesis/utils/adapters"
+	"github.com/artheranet/lachesis/vecfc"
 )
 
 func main() {

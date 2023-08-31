@@ -4,12 +4,12 @@ import (
 	"math"
 	"sort"
 
-	"github.com/Fantom-foundation/lachesis-base/abft/dagidx"
-	"github.com/Fantom-foundation/lachesis-base/hash"
-	"github.com/Fantom-foundation/lachesis-base/inter/dag"
-	"github.com/Fantom-foundation/lachesis-base/inter/idx"
-	"github.com/Fantom-foundation/lachesis-base/inter/pos"
-	"github.com/Fantom-foundation/lachesis-base/utils/wmedian"
+	"github.com/artheranet/lachesis/abft/dagidx"
+	"github.com/artheranet/lachesis/hash"
+	"github.com/artheranet/lachesis/inter/dag"
+	"github.com/artheranet/lachesis/inter/idx"
+	"github.com/artheranet/lachesis/inter/pos"
+	"github.com/artheranet/lachesis/utils/wmedian"
 )
 
 type DagIndexQ interface {

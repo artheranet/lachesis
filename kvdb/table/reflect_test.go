@@ -1,6 +1,6 @@
 package table
 
-//go:generate go run github.com/golang/mock/mockgen -package=table -destination=mock_test.go github.com/Fantom-foundation/lachesis-base/kvdb DBProducer,DropableStore
+//go:generate go run github.com/golang/mock/mockgen -package=table -destination=mock_test.go github.com/artheranet/lachesis/kvdb DBProducer,DropableStore
 
 import (
 	"testing"
@@ -8,7 +8,7 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/Fantom-foundation/lachesis-base/kvdb"
+	"github.com/artheranet/lachesis/kvdb"
 )
 
 type testTables struct {

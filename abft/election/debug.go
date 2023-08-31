@@ -4,7 +4,7 @@ import (
 	"crypto/sha256"
 	"fmt"
 
-	"github.com/Fantom-foundation/lachesis-base/hash"
+	"github.com/artheranet/lachesis/hash"
 )
 
 // DebugStateHash may be used in tests to match election state

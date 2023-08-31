@@ -4,11 +4,11 @@ import (
 	"math"
 	"sync"
 
-	"github.com/Fantom-foundation/lachesis-base/eventcheck"
-	"github.com/Fantom-foundation/lachesis-base/hash"
-	"github.com/Fantom-foundation/lachesis-base/inter/dag"
-	"github.com/Fantom-foundation/lachesis-base/inter/idx"
-	"github.com/Fantom-foundation/lachesis-base/utils/wlru"
+	"github.com/artheranet/lachesis/eventcheck"
+	"github.com/artheranet/lachesis/hash"
+	"github.com/artheranet/lachesis/inter/dag"
+	"github.com/artheranet/lachesis/inter/idx"
+	"github.com/artheranet/lachesis/utils/wlru"
 )
 
 type (
